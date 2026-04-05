@@ -35,3 +35,10 @@ jobs:
           echo "Memulai proses build..."
           python -m zipapp src/ -o app.pyz -m "main:main"
           echo "Build berhasil! Artifak app.pyz tercipta."
+
+      # Menyimpan hasil Build
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: aplikasi-siap-edar
+          path: app.pyz
