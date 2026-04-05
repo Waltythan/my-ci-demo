@@ -27,7 +27,7 @@ jobs:
 
       # 3. UNIT TEST
       - name: Run Unit Test (Pytest)
-        run: pytest tests/
+        run: python -m pytest tests/
 
       # 4. BUILD TEST
       - name: Run Build Test (Simulasi)
