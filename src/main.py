@@ -3,4 +3,5 @@ def tambah(a, b):
 
 
 if __name__ == "__main__":
-    print(f"Hasil: {tambah(10, 5)}")
+    # Niatnya manggil fungsi tambah, tapi malah ngetik variabel yang nggak ada
+    print(f"Hasil: {hasil_penjumlahan}")
