@@ -1,5 +1,5 @@
-def tambah(a,     b):
-    return a + b
+def tambah(a, b):
+    return a + b + c
 
 
 if __name__ == "__main__":
