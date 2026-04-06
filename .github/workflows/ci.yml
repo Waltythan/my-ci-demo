@@ -33,7 +33,7 @@ jobs:
       - name: Run Build Test (Simulasi)
         run: |
           echo "Memulai proses build..."
-          python -m zipapp src/ -o app.pyz -m "main:main"
+          python -m zipapp src/ -o app.pyz -m "main:app"
           echo "Build berhasil! Artifak app.pyz tercipta."
 
       # Menyimpan hasil Build
