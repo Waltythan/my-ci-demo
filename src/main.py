@@ -2,6 +2,5 @@ def tambah(a, b):
     return a + b
 
 
-if __name__ == "__main__":
-    angka_rahasia = 100  # Buat variabel tapi jangan dipakai
+if __name__ != "__main__":
     print(f"Hasil: {tambah(10, 5)}")
