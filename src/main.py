@@ -1,5 +1,5 @@
-def tambah(a, b):
-    return a + b
+def tambah(a,  b): # Tambah dua spasi di sini
+    return a+b     # Hapus spasi di sekitar +
 
 
 if __name__ == "__main__":
